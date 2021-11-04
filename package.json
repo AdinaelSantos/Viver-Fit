@@ -1,0 +1,14 @@
+{
+  "name": "viver-fit",
+  "version": "1.0.0",
+  "description": "Template ficticio para academia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noel Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
