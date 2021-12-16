@@ -1,0 +1,40 @@
+///"styleSass": "sass --watch sass/main.scss:assets/css/style.css",
+///"styleCompressedSass": "sass --watch sass/main.scss:assets/css/styleCompressed.css --style compressed"
+///npm run styleSass
+///npm run styleCompressedSass
+///USAR ATALHO PELA LINHA DE COMANDO VS/CODE
+
+
+///@import "abstracts/variables";
+///@import "abstracts/functions";
+///@import "abstracts/mixins";
+///@import "abstracts/placeholder";
+///
+///@import "vendors/bootstrap";
+///@import "vendors/fontwasome";
+///
+///@import "base/reset";
+///@import "base/tipography";
+///
+///@import "layout/...";
+///@import "layout/...";
+///@import "layout/...";
+///@import "layout/...";
+///
+///@import "componentes/...";
+///@import "componentes/...";
+///@import "componentes/...";
+///@import "componentes/...";
+///@import "componentes/...";
+///@import "componentes/...";
+///
+///@import "pages/...";
+///@import "pages/...";
+///@import "pages/...";
+///
+///@import "themes/...";
+@import "./abstracts/main.scss";
+@import "./vendors/main.scss";
+@import "./base/main.scss";
+@import "./layout/main";
+@import "./componentes/main.scss";

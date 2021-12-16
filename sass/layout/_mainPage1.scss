@@ -1,0 +1,112 @@
+//////////////////////////////
+/// QUEM SOMOS
+.quemSomos{
+    background-color: $gray-300;
+    text-align: center;
+    padding: $padding_4;
+    div{
+        @extend %containerMobile;
+        h2{
+            @include styleFont(initial, $fontSizeSubtitle_3, bold, $gray-900);
+            margin-bottom: $margin_2;
+        }
+        p{
+            @include styleFont(initial, $fontSizeSubtitle_1, bold, $gray-800);
+        }
+    }
+}
+/////////////////////////////////////
+///PLANOS
+.planos{
+    background-color: $gray-100;
+    .plano-container{
+        @extend %containerMobile;
+    }
+}
+.plano-container{
+    padding: $padding_2 0;
+    
+    h2{
+        @include styleFont(initial, $fontSizeSubtitle_3, bold, $gray-900); ///alterar tipo de fonte
+        text-align: center;
+        padding:$padding_1 0;
+    }
+}
+
+.tipo{
+    border: 2px solid $gray-300;
+    border-radius: .5rem;
+    @extend %centralizar_column;
+    text-align: center;
+    padding: $padding_1;
+    margin: $margin_1 0;
+    h4{
+        @include styleFont(initial, $fontSizeSubtitle_2, bold, $gray-700);
+        margin: $margin_1 0;
+    }
+    p, ul{
+        @include styleFont(initial, $fontSizeText_3, normal, $gray-700);
+        padding: .5rem 0;
+    }
+    strong{
+        @include styleFont(initial, $fontSizeSubtitle_4, normal, $gray-700);
+        sup{
+            font-size: $fontSizeSubtitle_1;
+            margin-right: .3rem
+        }
+    }
+    span{
+        @include styleFont(initial, $fontSizeText_1, normal, $gray-900);
+    }
+    button{
+        margin: $margin_2 0;
+    }
+    h5{
+        @include styleFont(initial, $fontSizeSubtitle_1, bold, $gray-900);
+    }
+    &:nth-child(even){
+        background-color: black;
+        color: white;
+    }
+}
+/////////////////////////////////
+///FITNESCLUB
+.fitnessClub{
+    background-color: $gray-300;
+    height: 90vh;
+}
+.containerImg{
+    @extend %containerMobile;
+    position: relative;
+    padding: $padding_4 0;
+    img{
+        width: 100%;
+    }
+    div{
+        width: 70%;
+        position: absolute;
+        margin-top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $backgroundPrimary;
+        text-align: center;
+        padding: $padding_1;
+        border-radius: 10px;
+        h3{
+            @include styleFont(initial, $fontSizeSubtitle_3, normal, $gray-900);
+            &::after{
+                content:' ';
+                display: block;
+                background-color: $gray-900;
+                width: 50%;
+                height: 2.5px;
+                margin-top: $margin_1;
+                
+            }
+        }
+        p{
+            @include styleFont(initial, $fontSizeText_2, normal, $gray-900);
+            margin: $margin_1 0;
+        }
+    }
+}

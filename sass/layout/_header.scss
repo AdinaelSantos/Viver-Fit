@@ -1,0 +1,25 @@
+.header{
+    background-image: url('/assets/img/Fitness-Background-1024.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    .conteiner{
+        @extend %containerMobile;
+    }
+}
+
+.banner-infor{
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    h1{
+        font-size: 3rem;
+        padding: 2rem 0;
+    }
+    p{
+        ///letter-spacing: .2rem;
+        margin-bottom: 2rem;
+    }
+    
+}

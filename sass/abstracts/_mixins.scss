@@ -1,0 +1,28 @@
+@mixin styleFont($fontFamily, $fontSize, $fontWeight, $fontColor){
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    color: $fontColor;
+}
+///@mixin icon ($margin, $padding, $fontSize, $fontColor){
+///    margin: $margin;
+///    padding: $padding;
+///    font-size: $fontSize;
+///    color: $fontColor;
+///}
+///@mixin flex ($display, $direction, $Wrap, $align){
+///    display: $display;
+///    flex-direction: $direction;
+///    flex-wrap: $Wrap;
+///    justify-content: $align;
+///}
+///
+///@mixin circle($width, $hegth, $radius: 50%){
+///    width: $width;
+///    height: $hegth;
+///    border-radius: $radius;
+///}
+///@mixin styleButtom ($color){
+///    padding: 1rem;
+///    color: $color;
+///}

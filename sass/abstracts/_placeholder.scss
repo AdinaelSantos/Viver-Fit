@@ -1,0 +1,39 @@
+%containerMobile {
+    width: 90%;
+    margin: 0 auto;
+}
+///
+///%centralizar {
+///    display: flex;
+///    align-items: center;
+///    justify-content: center;
+///}
+///
+%centralizar_column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+///
+///%borderStart{
+///        content:'';
+///        display: block;
+///        width: 2em;
+///        border: 2px solid $colorPrimary;
+///        margin-top: .2em;
+///        
+///}
+///%title_h2{
+///    font-family: $titulos;
+///    font-size: $fontSize_5;
+///    font-weight: bold;
+///    color: $colorGray-800;
+///}
+///
+///%title_h3{
+///    font-family: $titulos;
+///    font-size: $fontSize_4;
+///    font-weight: normal;
+///    letter-spacing: .1em;
+///    color: $colorGray-200;
+///}

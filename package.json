@@ -4,7 +4,9 @@
   "description": "Template ficticio para academia.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styleSass": "sass --watch sass/main.scss:assets/css/style.css",
+    "styleCompressedSass": "sass --watch sass/main.scss:assets/css/styleCompressed.css --style compressed"
   },
   "author": "Noel Almeida",
   "license": "ISC",
